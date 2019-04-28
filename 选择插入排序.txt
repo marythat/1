@@ -1,0 +1,43 @@
+    public static int[] choose(int[] arr){
+        for (int i = 0;i<arr.length;i++){
+            int min = i;
+            for(int j=i;j<arr.length-1;j++){
+                if(arr[min]>arr[j+1]){
+                    min=j+1;
+                }
+            }
+            int temp = arr[i];
+            arr[i] = arr[min];
+            arr[min] = temp;
+        }
+        return arr;
+    }
+    public static int[] insert(int[] arr){
+        for (int i = 0;i<arr.length;i++){
+            int min = i;
+            for(int j=i;j>0;j--){
+                if(arr[min]<arr[j-1]){
+                    min = j-1;
+                }else{
+                    break;
+                }
+            }
+            int temp = arr[i];
+            arr[i] = arr[min];
+            arr[min] = temp;
+        }
+        return arr;
+    }
+    public static void main(String[] args) {
+        int[] arr = new int[30];
+        Random random = new Random();
+        for(int i=0;i<30;i++){
+            arr[i] = random.nextInt(100);
+        }
+        System.out.println(Arrays.toString(arr));
+        int[] choose=choose(arr);
+        System.out.println(Arrays.toString(choose));
+        int[] insert=insert(arr);
+        System.out.println(Arrays.toString(insert));
+        System.out.println("biubiubiu");
+    }
