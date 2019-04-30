@@ -1,0 +1,153 @@
+@import "../../../../lib/scss/_index";
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+  background-color: #f2f2f2;
+
+}
+
+.navbar {
+  width: 100%;
+  border-bottom: 1px solid #999999;
+  background-color: #ffffff;
+  position: relative;
+
+  .back {
+    position: absolute;
+    width: vw(100);
+    height: vw(32);
+    left: vw(22);
+    padding-top: vw(38);
+    padding-bottom: vw(44);
+
+    .wrap-img {
+      width: vw(16);
+      height: vw(32);
+    }
+  }
+
+  .title {
+    padding-top: vw(38);
+    padding-bottom: vw(44);
+    text-align: center;
+    font-weight: bolder;
+    font-size: vw(36);
+  }
+}
+
+.content {
+  width: 100%;
+  background-color: #f2f2f2;
+  overflow: hidden;
+
+  .card.avater {
+    @include card;
+    margin-top: vw(20);
+    height: vw(176);
+    line-height: vw(60);
+    display: flex;
+    align-items: center;
+
+    .wrap-img.user-avater {
+      flex: 1;
+      height: 100%;
+      font-size: 0;
+      margin-right: vw(50);
+
+      img {
+        box-sizing: border-box;
+        padding: vw(20) 0;
+        float: right;
+        width: auto;
+        height: 100%;
+      }
+    }
+
+    .wrap-img.go {
+      width: vw(16);
+      height: vw(29);
+      position: relative;
+
+      img {
+        position: absolute;
+        top: 0;
+      }
+    }
+
+    .text {
+      margin-left: vw(12);
+      font-weight: bold;
+      color: #666666;
+
+      b {
+        font-size: vw(30);
+      }
+
+      .tag {
+        width: vw(114);
+        height: vw(40);
+        background-color: #ff9900;
+        padding: vw(10);
+        color: #fff;
+        margin-left: vw(25);
+      }
+    }
+  }
+
+  .card.user-text {
+    @include card;
+    position: relative;
+    // border: 0;
+    margin-bottom: vw(0);
+    margin-top: vw(0);
+    line-height: vw(60);
+    display: flex;
+    align-items: center;
+    border-bottom: 0;
+
+    &:last-child {
+      border-bottom: solid 1px #999999;
+    }
+
+    .full {
+      flex: 1;
+      text-align: right;
+      margin-right: vw(20);
+      color: #999999;
+    }
+
+    .wrap-img.go {
+      width: vw(16);
+      height: vw(29);
+      position: relative;
+
+      img {
+        position: absolute;
+        top: 0;
+      }
+    }
+
+    .text {
+      margin-left: vw(12);
+      font-weight: bold;
+      color: #666666;
+
+      b {
+        font-size: vw(30);
+      }
+
+      .tag {
+        width: vw(114);
+        height: vw(40);
+        background-color: #ff9900;
+        padding: vw(10);
+        color: #fff;
+        margin-left: vw(25);
+      }
+    }
+  }
+}

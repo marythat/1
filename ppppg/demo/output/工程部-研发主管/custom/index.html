@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login</title>
+  <link rel="stylesheet" href="/lib/css/swiper.min.css">
+  <script src="/lib/js/swiper.min.js"></script>
+  <link rel="stylesheet" href="/lib/css/reset.css">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="back" onclick="window.history.go(-1)">
+      <div class="wrap-img">
+        <img src="./images/back.png" alt="">
+      </div>
+    </div>
+    <div class="title">华恒智能管理系统</div>
+  </div>
+  <div class="content">
+    <div class="search">
+      <form class="search-box">
+        <div class="wrap-img">
+          <img src="./images/search.png" alt="">
+        </div>
+        <input id="search-text" type="text" placeholder="搜索">
+      </form>
+    </div>
+    <div class="tabs-panel">
+      <div class="tab-item active">待研发</div>
+      <div class="tab-item">研发中</div>
+      <div class="tab-item">已完成</div>
+    </div>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" id="page1">
+          <div class="swiper-container-list0 swiper">
+            <div class="message" style="display:none;">
+              列表
+            </div>
+            <div class="refreshtip">下拉可以刷新</div>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="list">
+                  <div class="bg"></div>
+                  <div class="init-loading" style="display:none;">加载中</div>
+
+                </div>
+                <div class="loadtip">上拉加载更多</div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide" id="page2">
+          <div class="swiper-container-list swiper">
+            <div class="message" style="display:none;">
+              列表
+            </div>
+            <div class="refreshtip">下拉可以刷新</div>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="list">
+                  <div class="bg"></div>
+                  <div class="init-loading" style="display:none;">加载中</div>
+                  <div class="item">
+                    <div class="title">
+                      <span class="project-name">项目名称 10001-A</span>
+                      <span class="project-desc">公司项目</span>
+                      <span class="project-time">2019-07-14</span>
+                    </div>
+                    <div class="item-content">
+                      <div class="plan">
+                        <div class="charge">
+                          负责人：XXX、XXX、XXX
+                        </div>
+                        <div class="plan-time">计划完成时间：2019-01-01 09:12:12</div>
+                      </div>
+                      <div class="status">待研发</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="loadtip">上拉加载更多</div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide" id="page3">
+          <div class="swiper-container-list1 swiper">
+            <div class="message" style="display:none;">
+              列表
+            </div>
+            <div class="refreshtip">下拉可以刷新</div>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="list">
+                  <div class="bg"></div>
+                  <div class="init-loading" style="display:none;">加载中</div>
+                  <div class="item">
+                    <div class="title">
+                      <span class="project-name">项目名称 10001-A</span>
+                      <span class="project-desc">公司项目</span>
+                      <span class="project-time">2019-07-14</span>
+                    </div>
+                    <div class="item-content">
+                      <div class="plan">
+                        <div class="charge">
+                          负责人：XXX、XXX、XXX
+                        </div>
+                        <div class="plan-time">计划完成时间：2019-01-01 09:12:12</div>
+                      </div>
+                      <div class="status">待研发</div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="title">
+                      <span class="project-name">项目名称 10001-A</span>
+                      <span class="project-desc">公司项目</span>
+                      <span class="project-time">2019-07-14</span>
+                    </div>
+                    <div class="item-content">
+                      <div class="plan">
+                        <div class="charge">
+                          负责人：XXX、XXX、XXX
+                        </div>
+                        <div class="plan-time">计划完成时间：2019-01-01 09:12:12</div>
+                      </div>
+                      <div class="status">待研发</div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="title">
+                      <span class="project-name">项目名称 10001-A</span>
+                      <span class="project-desc">公司项目</span>
+                      <span class="project-time">2019-07-14</span>
+                    </div>
+                    <div class="item-content">
+                      <div class="plan">
+                        <div class="charge">
+                          负责人：XXX、XXX、XXX
+                        </div>
+                        <div class="plan-time">计划完成时间：2019-01-01 09:12:12</div>
+                      </div>
+                      <div class="status">待研发</div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="title">
+                      <span class="project-name">项目名称 10001-A</span>
+                      <span class="project-desc">公司项目</span>
+                      <span class="project-time">2019-07-14</span>
+                    </div>
+                    <div class="item-content">
+                      <div class="plan">
+                        <div class="charge">
+                          负责人：XXX、XXX、XXX
+                        </div>
+                        <div class="plan-time">计划完成时间：2019-01-01 09:12:12</div>
+                      </div>
+                      <div class="status">待研发</div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="title">
+                      <span class="project-name">项目名称 10001-A</span>
+                      <span class="project-desc">公司项目</span>
+                      <span class="project-time">2019-07-14</span>
+                    </div>
+                    <div class="item-content">
+                      <div class="plan">
+                        <div class="charge">
+                          负责人：XXX、XXX、XXX
+                        </div>
+                        <div class="plan-time">计划完成时间：2019-01-01 09:12:12</div>
+                      </div>
+                      <div class="status">待研发</div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="title">
+                      <span class="project-name">项目名称 10001-A</span>
+                      <span class="project-desc">公司项目</span>
+                      <span class="project-time">2019-07-14</span>
+                    </div>
+                    <div class="item-content">
+                      <div class="plan">
+                        <div class="charge">
+                          负责人：XXX、XXX、XXX
+                        </div>
+                        <div class="plan-time">计划完成时间：2019-01-01 09:12:12</div>
+                      </div>
+                      <div class="status">待研发</div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="title">
+                      <span class="project-name">项目名称 10001-A</span>
+                      <span class="project-desc">公司项目</span>
+                      <span class="project-time">2019-07-14</span>
+                    </div>
+                    <div class="item-content">
+                      <div class="plan">
+                        <div class="charge">
+                          负责人：XXX、XXX、XXX
+                        </div>
+                        <div class="plan-time">计划完成时间：2019-01-01 09:12:12</div>
+                      </div>
+                      <div class="status">待研发</div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="title">
+                      <span class="project-name">项目名称 10001-A</span>
+                      <span class="project-desc">公司项目</span>
+                      <span class="project-time">2019-07-14</span>
+                    </div>
+                    <div class="item-content">
+                      <div class="plan">
+                        <div class="charge">
+                          负责人：XXX、XXX、XXX
+                        </div>
+                        <div class="plan-time">计划完成时间：2019-01-01 09:12:12</div>
+                      </div>
+                      <div class="status">待研发</div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="title">
+                      <span class="project-name">项目名称 10001-A</span>
+                      <span class="project-desc">公司项目</span>
+                      <span class="project-time">2019-07-14</span>
+                    </div>
+                    <div class="item-content">
+                      <div class="plan">
+                        <div class="charge">
+                          负责人：XXX、XXX、XXX
+                        </div>
+                        <div class="plan-time">计划完成时间：2019-01-01 09:12:12</div>
+                      </div>
+                      <div class="status">待研发</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="loadtip">上拉加载更多</div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="float-btn">
+      <p>添加项目</p>
+    </div>
+  </div>
+  <script src="/lib/js/jquery.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

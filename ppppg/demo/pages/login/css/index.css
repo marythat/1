@@ -1,0 +1,165 @@
+.txt-red {
+  color: red;
+}
+
+.wrap-img img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.border-bottm::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #999;
+}
+
+.clearfix::after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.tag {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 4vw;
+  width: 16vw;
+  height: 8vw;
+  margin: 0.66667vw auto;
+  line-height: 8vw;
+  text-align: center;
+  background-color: #9ea7ac9f;
+  color: #fff;
+}
+
+.tag.red {
+  background-color: red;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #f2f2f2;
+  overflow-y: auto;
+}
+
+.navbar {
+  width: 100%;
+  border-bottom: 1px solid #999999;
+  background-color: #ffffff;
+}
+
+.navbar .back {
+  position: absolute;
+  width: 13.33333vw;
+  height: 4.26667vw;
+  left: 2.93333vw;
+  padding-top: 5.06667vw;
+  padding-bottom: 5.86667vw;
+}
+
+.navbar .back .wrap-img {
+  width: 2.13333vw;
+  height: 4.26667vw;
+}
+
+.navbar .title {
+  padding-top: 5.06667vw;
+  padding-bottom: 5.86667vw;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 4.8vw;
+}
+
+.content {
+  width: 100%;
+  height: calc(100% - 20vw - 1px);
+  background-color: #f2f2f2;
+  position: relative;
+}
+
+.content .logo {
+  padding-top: 14.4vw;
+  width: 47.2vw;
+  height: 0;
+  padding-bottom: 29.33333vw;
+  margin: 0 auto;
+}
+
+.content .title {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 4.8vw;
+  margin-top: 5.86667vw;
+}
+
+.content .account {
+  margin-top: 10.26667vw;
+  text-align: center;
+}
+
+.content .account input[type="text"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 6.53333vw;
+  padding-right: 6.53333vw;
+  width: 74.66667vw;
+  height: 11.73333vw;
+  background-color: #ffffff;
+  border-radius: 5.86667vw;
+  border: solid 1px #cccccc;
+  font-size: 4vw;
+}
+
+.content .password {
+  margin-top: 4vw;
+  text-align: center;
+}
+
+.content .password input[type="password"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-left: 6.53333vw;
+  padding-right: 6.53333vw;
+  width: 74.66667vw;
+  height: 11.73333vw;
+  background-color: #ffffff;
+  border-radius: 5.86667vw;
+  border: solid 1px #cccccc;
+  font-size: 4vw;
+}
+
+.content .button {
+  width: 74.66667vw;
+  height: 11.73333vw;
+  line-height: 11.73333vw;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #203578;
+  border: 0;
+  display: block;
+  border-radius: 5.86667vw;
+  font-size: 4vw;
+  color: #ffffff;
+  margin-top: 12.53333vw;
+  margin-bottom: 12.53333vw;
+}
+
+.footer {
+  font-size: 4.8vw;
+  position: absolute;
+  color: #999999;
+  bottom: 6vw;
+  left: 0vw;
+  right: 0vw;
+  text-align: center;
+}
+/*# sourceMappingURL=index.css.map */

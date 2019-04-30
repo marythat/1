@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login</title>
+  <link rel="stylesheet" href="../lib/css/reset.css">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="back" onclick="window.location.href='/pages/order/'">
+      <div class="wrap-img">
+        <img src="./images/back.png" alt="">
+      </div>
+    </div>
+    <div class="title">订单</div>
+  </div>
+  <div class="content">
+    <div class="search">
+      <form class="search-box">
+        <div class="wrap-img">
+          <img src="./images/search.png" alt="">
+        </div>
+        <input id="search-text" type="text" placeholder="搜索">
+      </form>
+    </div>
+    <div class="container">
+      <div class="card order-list">
+        <div class="order-list-header">
+          <b>订单号：21412412</b>
+          <span class="right">2019-04-14</span>
+        </div>
+        <div class="order-list-det">客 户：XXX</div>
+        <div class="order-list-jo">JO号：XXX</div>
+        <div class="order-list-dev">设 备：4</div>
+        <div class="order-list-dev">总 价：<b class="txt-red">¥ 5200</b></div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+
+  <script src="../lib/js/jquery.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

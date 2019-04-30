@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login</title>
+  <link rel="stylesheet" href="/lib/css/swiper.min.css">
+  <link rel="stylesheet" href="/lib/css/reset.css">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="back" onclick="window.location.href='/pages/order/'">
+      <div class="wrap-img">
+        <img src="./images/back.png" alt="">
+      </div>
+    </div>
+    <div class="title">项目问题列表</div>
+  </div>
+  <div class="content">
+    <div class="card">
+      <div class="wrap-img">
+        <img src="./images/icon.png" alt="">
+      </div>
+      <span class="text">
+        <span>当前项目：</span>
+        <b>项目名称 10001-A</b>
+        <span class="tag">
+          客户项目
+        </span>
+    </div>
+    <div class="search">
+      <form class="search-box">
+        <div class="wrap-img">
+          <img src="./images/search.png" alt="">
+        </div>
+        <input id="search-text" type="text" placeholder="搜索">
+      </form>
+    </div>
+    <div class="tabs-panel">
+      <div class="tab-item active">未解决</div>
+      <div class="tab-item">已解决</div>
+    </div>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" id="page1">
+          <div class="swiper-container-list swiper">
+            <div class="message" style="display:none;">
+              列表
+            </div>
+            <div class="refreshtip">下拉可以刷新</div>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="list">
+                  <div class="bg"></div>
+                  <div class="init-loading" style="display:none;">加载中</div>
+
+                </div>
+                <div class="loadtip">上拉加载更多</div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="swiper-slide" id="page2">
+          <div class="swiper-container-list0 swiper ">
+            <div class="message" style="display:none;">
+              列表
+            </div>
+            <div class="refreshtip">下拉可以刷新</div>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="list">
+                  <div class="bg"></div>
+                  <div class="init-loading" style="display:none;">加载中</div>
+
+                  <div class="item">
+                    <div class="title">
+                      <span>描述：</span>
+                      <span class="desc">xxxxxxxxxx</span>
+                      <span class="right grey">轻微</span>
+                    </div>
+                    <div class="person">
+                      <div class="wrap-img">
+                        <img src="./images/btn1.png" alt="">
+                      </div>
+                      <span class="desc">赵某某</span>
+                      <span class="right">2018-12-22</span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="title">
+                      <span>描述：</span>
+                      <span class="desc">xxxxxxxxxx</span>
+                      <span class="right orange">紧急</span>
+                    </div>
+                    <div class="person">
+                      <div class="wrap-img">
+                        <img src="./images/btn1.png" alt="">
+                      </div>
+                      <span class="desc">赵某某</span>
+                      <span class="right">2018-12-22</span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="title">
+                      <span>描述：</span>
+                      <span class="desc">xxxxxxxxxx</span>
+                      <span class="right red">严重</span>
+                    </div>
+                    <div class="person">
+                      <div class="wrap-img">
+                        <img src="./images/btn1.png" alt="">
+                      </div>
+                      <span class="desc">赵某某</span>
+                      <span class="right">2018-12-22</span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="title">
+                      <span>描述：</span>
+                      <span class="desc">xxxxxxxxxx</span>
+                      <span class="right red">严重</span>
+                    </div>
+                    <div class="person">
+                      <div class="wrap-img">
+                        <img src="./images/btn1.png" alt="">
+                      </div>
+                      <span class="desc">赵某某</span>
+                      <span class="right">2018-12-22</span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="title">
+                      <span>描述：</span>
+                      <span class="desc">xxxxxxxxxx</span>
+                      <span class="right red">严重</span>
+                    </div>
+                    <div class="person">
+                      <div class="wrap-img">
+                        <img src="./images/btn1.png" alt="">
+                      </div>
+                      <span class="desc">赵某某</span>
+                      <span class="right">2018-12-22</span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="title">
+                      <span>描述：</span>
+                      <span class="desc">xxxxxxxxxx</span>
+                      <span class="right red">严重</span>
+                    </div>
+                    <div class="person">
+                      <div class="wrap-img">
+                        <img src="./images/btn1.png" alt="">
+                      </div>
+                      <span class="desc">赵某某</span>
+                      <span class="right">2018-12-22</span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="title">
+                      <span>描述：</span>
+                      <span class="desc">xxxxxxxxxx</span>
+                      <span class="right red">严重</span>
+                    </div>
+                    <div class="person">
+                      <div class="wrap-img">
+                        <img src="./images/btn1.png" alt="">
+                      </div>
+                      <span class="desc">赵某某</span>
+                      <span class="right">2018-12-22</span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="title">
+                      <span>描述：</span>
+                      <span class="desc">xxxxxxxxxx</span>
+                      <span class="right red">严重</span>
+                    </div>
+                    <div class="person">
+                      <div class="wrap-img">
+                        <img src="./images/btn1.png" alt="">
+                      </div>
+                      <span class="desc">赵某某</span>
+                      <span class="right">2018-12-22</span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="title">
+                      <span>描述：</span>
+                      <span class="desc">xxxxxxxxxx</span>
+                      <span class="right red">严重</span>
+                    </div>
+                    <div class="person">
+                      <div class="wrap-img">
+                        <img src="./images/btn1.png" alt="">
+                      </div>
+                      <span class="desc">赵某某</span>
+                      <span class="right">2018-12-22</span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="title">
+                      <span>描述：</span>
+                      <span class="desc">xxxxxxxxxx</span>
+                      <span class="right red">严重</span>
+                    </div>
+                    <div class="person">
+                      <div class="wrap-img">
+                        <img src="./images/btn1.png" alt="">
+                      </div>
+                      <span class="desc">赵某某</span>
+                      <span class="right">2018-12-22</span>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="title">
+                      <span>描述：</span>
+                      <span class="desc">xxxxxxxxxx</span>
+                      <span class="right red">严重</span>
+                    </div>
+                    <div class="person">
+                      <div class="wrap-img">
+                        <img src="./images/btn1.png" alt="">
+                      </div>
+                      <span class="desc">赵某某</span>
+                      <span class="right">2018-12-22</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="loadtip">上拉加载更多</div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="float-btn">
+    <p>添加问题</p>
+  </div>
+  </div>
+  <script src="/lib/js/swiper.min.js"></script>
+  <script src="/lib/js/jquery.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
